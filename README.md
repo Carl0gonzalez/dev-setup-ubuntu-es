@@ -1,23 +1,25 @@
-# dev-setup-ubuntu-es
+# ⚙️ dev-setup-ubuntu-es
 
-Repositorio público del perfil **Carl0gonzalez**, documentado para dejar un punto de entrada más claro sobre su propósito y contenido.
+Colección de scripts Bash para **preparar un entorno completo de desarrollo en Ubuntu o WSL**, con instalación modular de herramientas clave.
 
----
+![Ubuntu](https://img.shields.io/badge/Ubuntu-setup-E95420?logo=ubuntu) ![Docker](https://img.shields.io/badge/Docker-ready-blue?logo=docker) ![Terraform](https://img.shields.io/badge/Terraform-ready-623CE4?logo=terraform)
 
-## 📌 Objetivo
+## Descripción
 
-Entregar una descripción breve y útil del repositorio para facilitar su revisión y mantenimiento.
+El repositorio incluye scripts numerados para instalar base del sistema, Zsh, Git, SSH, Ruby, Node, Python, PostgreSQL, Docker, Kubernetes y Terraform. Está diseñado para ejecutar la configuración en pasos independientes y ordenados.
 
-## 📁 Revisión recomendada
+## Objetivo
 
-Clona el repositorio y revisa su estructura interna para identificar el flujo técnico, académico o experimental correspondiente.
+Automatizar la puesta en marcha de una estación de trabajo de desarrollo moderna, evitando configuraciones manuales repetitivas.
+
+## Uso
 
 ```bash
-git clone git@github.com:Carl0gonzalez/dev-setup-ubuntu-es.git
-cd dev-setup-ubuntu-es
+chmod +x scripts/*.sh
+./scripts/01-instalacion-base.sh
 ```
 
-## 👤 Autor
+## Autor
 
 **Carlo González**
 
